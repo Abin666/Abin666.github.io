@@ -1,3 +1,38 @@
-.backdrop{
-    background: url("img.jpg") no-repeat fixed center; 
+
+
+/* nav bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-left:180px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-decoration: none;
+}
+
+.active {
+    background-color: rgb(226, 3, 3);
+    color: white;
+    text-decoration: none;
 }

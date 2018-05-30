@@ -16,7 +16,9 @@ li a:hover:not(.active) {
     background-color: #111;
     text-decoration: none;
 }
-
+.sa{
+    box-shadow: 0 0px 50px 0 rgba(0, 0, 0, 0.8), 0 0px 40px 0 rgba(0, 0, 0, 0.20);
+}
 .active {
     background-color: rgb(255, 0, 0);
     color: white;
@@ -46,7 +48,7 @@ li a:hover:not(.active) {
 	font-weight: 900;
 }
 .responsive {
-    width: 90%;
+    width: 95%;
     height: auto;
 }
 .sha{
@@ -66,6 +68,19 @@ li a:hover:not(.active) {
     text-align: center;
 }
 
+
+.imag {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.siz{
+    width: 80%;
+    height: auto;
+}
+.bc{
+    background-color: #1d1d1d;
+}
 /*--------------------------------------------------
 --------------- words rotate -----------------------
 ---------------------------------------------------*/

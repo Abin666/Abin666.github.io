@@ -68,8 +68,9 @@ li a:hover:not(.active) {
 	padding-left: 10px;
 }
 .ttle{
-	font-family: Papyrus;
-	font-size: 350%;
+    /* font-family: Papyrus; */
+    font-family: 'Eagle Lake', cursive;
+	font-size: 450%;
 	text-align: center;
 	text-shadow: 0 0 20px #000000;
 	font-weight: 900;

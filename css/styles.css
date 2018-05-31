@@ -5,30 +5,15 @@
 ---------------------------------------------------*/
 
 
-@font-face{
-    src: url(./font/PAPYRUS.TTF);
-    font-family: Papyrus;
-}
-
-@font-face{
-    src: url(./font/Alisandra Demo.ttf);
-    font-family: Alisandra Demo;
-}
-
-
-
-
-
-
-
-
-
 /*--------------------------------------------------
 ----------------------------------------------------
 ---------------------------------------------------*/
 
 *{
     color: white;
+}
+.bla{
+    color: #000000;
 }
 
 /*
@@ -40,7 +25,7 @@
     background-color: rgb(0, 0, 0);
 }
 li a:hover:not(.active) {
-    background-color: #111;
+    background-color:  rgb(255, 0, 0);
     text-decoration: none;
 }
 .imag {
@@ -59,7 +44,7 @@ li a:hover:not(.active) {
     box-shadow: 0 0px 50px 0 rgba(0, 0, 0, 0.8), 0 0px 40px 0 rgba(0, 0, 0, 0.20);
 }
 .active {
-    background-color: rgb(255, 0, 0);
+    background: rgb(255, 0, 0);
     color: white;
 }
 
@@ -86,6 +71,9 @@ li a:hover:not(.active) {
 	text-shadow: 0 0 20px #000000;
 	font-weight: 900;
 }
+.btn-danger{
+    background: #ff0000;
+}
 .responsive {
     width: 95%;
     height: auto;
@@ -95,7 +83,7 @@ li a:hover:not(.active) {
 	padding-right: 40px;
 }
 .it{
-    font-family: Alisandra Demo;
+    font-family: 'Dancing Script', cursive;
     color: #ff0000;
     font-size: 200%;
     text-align: center;
@@ -209,7 +197,7 @@ li a:hover:not(.active) {
 	text-align: center;
 }
 .ar{
-	font-family: Arial;
+    font-family: 'Poiret One', cursive;
 }
 .bl{
 	font-weight: bold;
@@ -365,6 +353,43 @@ li a:hover:not(.active) {
         width: 50% !important;
     }
 
+}
+
+@media screen and (max-width: 577px){
+    .da{
+        text-align: center;
+    }
+    
+    .do{
+        padding-right: 80px;
+    }
+}
+@media screen and (max-width: 574px){
+    .da{
+        text-align: center;
+    }
+    
+    .dag{
+        padding-left: 200px;
+    }
+    .do{
+        padding-right: 80px;
+    }
+}
+
+@media screen and (max-width: 377px){
+    .da{
+        text-align: center;
+    }
+    .dag{
+        padding-left: 102px;
+    }
+    .dagg{
+        
+    }
+    .do{
+        padding-right: 80px;
+    }
 }
 
 @media screen and (max-width: 490px){

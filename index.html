@@ -13,6 +13,7 @@
         <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Eagle+Lake|Kumar+One|Montez" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
 
 
          <!-- Mobile Specific Metas -->
@@ -54,19 +55,18 @@
 
     </head>
     <body>
-           <!--header-->
-           <header style="background: url(./img/header1.gif) no-repeat center fixed; background-size: cover;" >
-               <div><br><br></div>
+        <!--header-->
+        <header style="background: url(./img/header1.gif) no-repeat center fixed; background-size: cover;" >
             <!-- navbar -->
-            <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+            <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar"><span class="navbar-toggler-icon"></span></button>
                 <a class="navbar-brand" href="#">Logo</a>
                 <div class="collapse navbar-collapse" id="Navbar">
                     <ul class="navbar-nav mr-auto do">
                         <li class="nav-item"><a class="nav-link active ar da" href="#">Home</a></li>
                         <li class="nav-item"><a class="nav-link ar da" href="#about">Profile</a></li>
-                        <li class="nav-item"><a class="nav-link ar da" href="#">Gallery</a></li>
-                        <li class="nav-item"><a class="nav-link ar da" href="#">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link ar da" href="#gallery">Gallery</a></li>
+                        <li class="nav-item"><a class="nav-link ar da" href="#contact">Contact</a></li>
                     </ul>
                     <span class="navbar-text">
                         <a href="./pdf/resume.pdf" class="ff ar dag" download>Resume<span class=" dagg fa fa-download eff"></span></a>
@@ -79,7 +79,7 @@
                 <div class="row">
                     <div class="col-lg-12 col-xl-12"><br><br><br><br><br><br><h1 class="display-1 col-12 ttle">ABIN BENNY<br></h1></div>
                 </div><br><br>
-                <div class="row sa">
+                <div class="row sa" style=" background: linear-gradient(to bottom, rgba(29,29,29,0), rgba(29, 29, 29, 0.3));">
                     <div class="col-lg-6 col-xl-6 home-profile-image">
                             <img src="./img/por1.gif" alt="Profile" class="responsive sha">
                     </div>
@@ -99,24 +99,84 @@
                     </div>
                     </div>
             </div>
-           </header>
-           <div style="background: url(./img/cont1.gif) no-repeat center fixed; background-size: cover;" >
-            <div class="container bc" id="about">
-                    <div class="row sa">
-                         <div class="col-lg-6 col-xl-6">
-                            <br><br>
-                            <h3 class="display-4"> About Me</h3>
-                            <p>
-                                I am Abin benny. I am a graphic designer by passion, a basketball lover and an artist. I believe that art is not what you simply see but its what you feel deep within when you see something. And that is what I try to bring up in all the designs that I make. Playing with colours is not an easy task, colours are a language that you speak. They act as a means of communication between an artist and the viewer. Bringing up the sense of perfection is what I intend to display in my designs. I have learns this by knowledge as well as experience. 
-                            </p>
-                            <a href="./about.html" class="btn btn-danger" role="button">Read more</a>
-                         </div>
-                         <div class="col-lg-6 col-xl-6 home-profile-image"><br><br>
-                             <img src="./img/por2.gif" alt="Profile" class="imag siz"><br>
-                         </div>
+        </header>
+        <div style="background: url(./img/cont1.gif) no-repeat center fixed; background-size: cover;" >
+            <div class="container  sa" >
+                <div class="row bc " id="about">
+                    <div class="col-lg-6 col-xl-6">
+                        <br><br><br><br><div><br><br><br><br></div>
+                        <h3 class="display-4 text-right"> About Me</h3>
+                        <p class="text-right">
+                                    I am pursuing a bachelor degree in Computer Science and Engineering from Karunya Institute of Technology and Sciences, Coimbatore, India.
+                        </p>
+                        <p class="text-right">
+                                    I am an Entrepreneur, a Full- Stack Web-developer, a Graphic designer, a UI and UX Developer by passion, a basketball lover and an artist. 
+                                    I believe that art is not what you simply see but it's what you feel deep within when you see something. 
+                                    And that is what I try to bring up in all the designs for the different platform that I make. 
+                                    Playing with colors is not an easy task, colors are a language that you speak. 
+                                    They act as a means of communication between an artist and the viewer. 
+                                    Bringing up the sense of perfection is what I intend to display in my designs. 
+                                    I have learns this by knowledge as well as experience. 
+                        </p>
+                        <br><br><center><a href="./about.html" class="btn btn-danger" role="button">Read more</a></center>
+                    </div>
+                    <div class="col-lg-6 col-xl-6 home-profile-image"><br><br><br><br>
+                        <img src="./img/por2.gif" alt="Profile" class="imag siz"><br><br>
                     </div>
                 </div>
-           </div>
+                <div class="row bc2 " id="gallery">
+                    <div class="col-lg-12 col-xl-12">
+                            <br><br><br><br>
+                           <h3 class="display-4 text-center">Gallery</h3>
+
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+        <div style="background: url(./img/cont2.gif) no-repeat center fixed; background-size: cover;" >
+            <div class="container" id="contact"><br>
+                <h3 class="display-4 text-center">Contact me</h3><br>
+                <div class="row">
+                    <div class="col-lg-6 col-xl-6">
+                        <form id="" method="post" action="contact.php">
+                            <input type="text" id="lname" name="name" placeholder="Your name.." required>
+                            <input type="text" id="lname" name="name" placeholder="Your email id.." required>
+                        </form>
+                    </div>    
+                    <form id="" method="post" action="contact.php">
+                    <div class="col-lg-6 col-xl-6">
+                        <form id="" method="post" action="contact.php">
+                            <textarea id="subject" name="subject" placeholder="Write something.." style="height:134px; width:500px;"></textarea>
+                        </form>
+                    </div>
+                </div>
+                <div class="row">
+                        <form id="" method="post" action="contact.php"></form>
+                        <div>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  &nbsp&nbsp&nbsp&nbsp 
+                                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        </div>
+                        
+                        <input type="submit" value="Submit">
+                    </form><br><br>
+                </div>
+            </div><br>
+        </div>
+        
+        <!-- footer -->
+        <footer class="container-fluid" style="background: #000000">
+            <div>
+                <br>
+                <p class="text-center">© 2018| <a href="./index.html" class="goned">An Abin Benny Production</a></p>
+                <br>
+            </div>
+        </footer>
            
 
 
@@ -131,6 +191,7 @@
 
 
         <!-- bootstrap js -->
+
         <script type="text/javascript" src="./js/jquery-3.3.1.slim.min.js"></script>
         <script type="text/javascript" src="./js/popper.min.js"></script>
         <script type="text/javascript" src="./js/bootstrap.min.js"></script>

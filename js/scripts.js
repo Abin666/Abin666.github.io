@@ -7,11 +7,10 @@ jQuery(document).ready(function($) {
   /* ---------------------------------------------------------------------- */
 
   /*Page Preloading*/
-  $(window).load(function() {
-      $('.preloader').fadeOut();
-      $('.wrapper-content').css('opacity', '1').fadeIn();
-      $('#custumize-style').fadeIn();
-  });
+//   $(window).load(function() {
+//     // Animate loader off screen
+//     $(".se-pre-con").fadeOut("slow");
+// });
 
   /* ---------------------------------------------------------------------- */
   /* ------------------- opens the menu responsive ------------------------ */

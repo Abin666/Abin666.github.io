@@ -33,8 +33,17 @@ input[type=submit]:hover {
     background-color: #b80707;
 }
 
-input[type=text], textarea {
+input[type=text]{
     width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #ffffff;
+}
+textarea{
+    width: 100%;
+    height: 250px;;
     padding: 15px;
     margin: 5px 0 22px 0;
     display: inline-block;
